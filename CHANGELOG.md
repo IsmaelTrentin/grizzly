@@ -1,5 +1,11 @@
 # @ppprisma/grizzly
 
+## 0.0.6
+
+### Patch Changes
+
+- de5aa06: update build script to potentially fix tsup not building src/index.ts
+
 ## 0.0.5
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @ppprisma/grizzly
 
+## 0.0.3
+
+### Patch Changes
+
+- 58cb899: fix not publising dist folder to npm
+
 ## 0.0.2
 
 ### Patch Changes

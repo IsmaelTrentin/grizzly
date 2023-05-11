@@ -1,5 +1,11 @@
 # @ppprisma/grizzly
 
+## 0.0.7
+
+### Patch Changes
+
+- 252c0e3: update again build script to fix tsup not building listed entries
+
 ## 0.0.6
 
 ### Patch Changes

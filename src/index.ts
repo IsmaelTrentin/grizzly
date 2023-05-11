@@ -201,6 +201,7 @@ class MatchQueryBuilder<V extends string> extends QueryBuilder<V> {
   }
 }
 */
+
 export default function grizzly(driver: Driver, sessionCfg?: SessionConfig) {
   const session = driver.session(sessionCfg);
 

@@ -11,9 +11,10 @@
     "build": "tsup src/**/*.ts --format cjs,esm --dts",
     "lint": "tsc --noEmit",
     "ci": "pnpm lint && pnpm test && pnpm build",
-    "release": "pnpm ci && changeset publish"
+    "release": "pnpm lint && pnpm test && pnpm build && changeset publish"
   },
   "author": "Ismael Trentin",
+  "private": false,
   "publishConfig": {
     "access": "public"
   },

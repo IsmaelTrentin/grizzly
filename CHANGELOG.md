@@ -1,5 +1,11 @@
 # @ppprisma/grizzly
 
+## 0.0.5
+
+### Patch Changes
+
+- 76a8e2f: update tsconfig
+
 ## 0.0.4
 
 ### Patch Changes

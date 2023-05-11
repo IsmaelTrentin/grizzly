@@ -1,0 +1,24 @@
+{
+  "name": "@ppprisma/grizzly",
+  "version": "0.0.1",
+  "description": "neo4j ogm",
+  "scripts": {
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/**/*.ts --format cjs,esm --dts",
+    "lint": "tsc --noEmit",
+    "ci": "pnpm lint && pnpm test && pnpm build"
+  },
+  "author": "Ismael Trentin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.7",
+    "tsup": "^6.7.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.31.0"
+  },
+  "dependencies": {
+    "neo4j-driver": "^5.8.0",
+    "zod": "^3.21.4"
+  }
+}

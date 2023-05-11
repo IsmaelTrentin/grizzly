@@ -1,5 +1,11 @@
 # @ppprisma/grizzly
 
+## 0.0.8
+
+### Patch Changes
+
+- aaa4557: Refactor query builders and fix tsup not building QueryBuilder.ts. Update build script to clean out dir.
+
 ## 0.0.7
 
 ### Patch Changes

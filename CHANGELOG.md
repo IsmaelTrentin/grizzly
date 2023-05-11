@@ -1,5 +1,11 @@
 # @ppprisma/grizzly
 
+## 0.0.4
+
+### Patch Changes
+
+- 3a10de1: fix index not published in npm package
+
 ## 0.0.3
 
 ### Patch Changes
